@@ -1,0 +1,42 @@
+print("================================")
+print("      PATIENT REGISTRATION")
+print("================================")
+name = input("Enter Patient Name: ")
+age = input("Enter Age: ")
+gender = input("Enter Gender: ")
+phone = input("Enter Phone Number: ")
+address = input("Enter Address: ")
+disease = input("Enter Disease/Problem: ")
+print("\n================================")
+print("      REGISTRATION SUCCESSFUL")
+print("================================")
+print("Patient Name :", name)
+print("Age          :", age)
+print("Gender       :", gender)
+print("Phone Number :", phone)
+print("Address      :", address)
+print("Problem      :", disease)
+print("================================")
+print("Patient registered successfully!")
+
+OUTPUT:
+================================
+      PATIENT REGISTRATION
+================================
+Enter Patient Name: vennela
+Enter Age: 19
+Enter Gender: female
+Enter Phone Number: 7654678976
+Enter Address: paris
+Enter Disease/Problem: fever
+================================
+      REGISTRATION SUCCESSFUL
+================================
+Patient Name : vennela
+Age          : 19
+Gender       : female
+Phone Number : 7654678976
+Address      : paris
+Problem      : fever
+================================
+Patient registered successfully!
